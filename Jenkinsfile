@@ -4,7 +4,7 @@ options { timestamps() }
 stages {
 stage('Cloner le dépôt') {
 steps {
-git url: 'https://github.com/D00042/jernkins-g4-douaa', branch: 'main'
+git url: 'https://github.com/D00042/jernkins-g4-douaa.git', branch: 'main'
 }
 }
 stage('Étape 1 : Vérification du dépôt') {
